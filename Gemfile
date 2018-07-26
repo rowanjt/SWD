@@ -5,3 +5,5 @@ platform :jruby do
 end
 
 gemspec
+
+gem 'httpclient', git: 'https://github.com/rowanjt/httpclient.git', branch: 'master'
